@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasib PhotoBoo</title>
+    <script src="https://kit.fontawesome.com/4bcb38cd66.js" crossorigin="anonymous"></script>
+    <style>
+        header h1 {
+            display: flex;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5%;
+            /* margin-top: 5%; */
+            font-size: 50px;
+            height: 300px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-image: url(Images/bg.jpg);
+            background-size: cover;
+            color: black;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            /* border: 1px solid green; */
+        }
+
+        .photo {
+            /* border: 1px solid red; */
+            border-radius: 7px;
+            box-shadow: 10px 5px 10px gray;
+            padding: 12px;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 7px;
+        }
+
+        .photo p h3 h5 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .rating,
+        .fa-star,
+        .fa-star-half-stroke {
+            color: gold;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: black;
+            font-size: 22px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <span>
+                <a href="">Home</a>
+                <a href="">Mobile</a>
+                <a href="">DSLR</a>
+                <a href="">About us</a>
+            </span>
+            <span>
+                <a href="">User</a>
+                <a href="">Login</a>
+            </span>
+
+        </nav>
+        <h1>Welcome to Hasib's Gallary</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="photo">
+                <img src="Images/photo-1.jpg" alt="">
+                <h3>Vintage Mode</h3>
+                <h5>Price: $10.00</h5>
+                <div class="rating">
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star-half-stroke"></i></a>
+                </div>
+                <p>Clicked by Hasib</p>
+            </div>
+            <div class="photo">
+                <img src="Images/photo-2.jpg" alt="">
+                <h3>Urban Area</h3>
+                <h5>Price: $20.00</h5>
+                <div class="rating">
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star-half-stroke"></i></a>
+                </div>
+                <p>Clicked by Hasib</p>
+            </div>
+            <div class="photo">
+                <img src="Images/photo-3.jpg" alt="">
+                <h3>Image Reversal</h3>
+                <h5>Price: $30.00</h5>
+                <div class="rating">
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star-half-stroke"></i></a>
+                </div>
+                <p>Clicked by Hasib</p>
+            </div>
+            <div class="photo">
+                <img src="Images/photo-4.jpg" alt="">
+                <h3>Childhood</h3>
+                <h5>Price: $40.00</h5>
+                <div class="rating">
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star-half-stroke"></i></a>
+                </div>
+                <p>Clicked by Hasib</p>
+            </div>
+            <div class="photo">
+                <img src="Images/photo-5.jpg" alt="">
+                <h3>Cat Eays</h3>
+                <h5>Price: $50.00</h5>
+                <div class="rating">
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star-half-stroke"></i></a>
+                </div>
+                <p>Clicked by Hasib</p>
+            </div>
+            <div class="photo">
+                <img src="Images/photo-6.jpg" alt="">
+                <h3>Fresh Smile</h3>
+                <h5>Price: $60.00</h5>
+                <div class="rating">
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star"></i></a>
+                    <a href=""><i class="fa-solid fa-star-half-stroke"></i></a>
+                </div>
+                <p>Clicked by Hasib</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
